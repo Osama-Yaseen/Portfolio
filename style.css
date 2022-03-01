@@ -1,0 +1,756 @@
+body {
+  font-family: 'Montserrat';
+}
+
+#Title {
+  background-color: #22273b;
+  color: #fff;
+
+}
+
+#About {
+  padding: 7% 15%;
+  background-color: #1b1b2c;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat-light';
+}
+
+.brand-icon {
+  color: #efb960;
+}
+
+.title-button {
+  border: solid 1px #efb960;
+  color: #efb960 !important;
+}
+
+.nav-item :hover {
+  color: #efb960 !important;
+}
+
+/************************************************ Title Image *************************************/
+.title-image {
+ width: 40%;
+}
+.MyProfile{
+  text-align: right;
+}
+.big-heading {
+  font-family: 'Noto Serif', serif;
+  font-size: 5rem;
+}
+
+.Major {
+  color: #fff;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Montserrat-Bold', sans-serif;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-family: 'Ubuntu-Bold';
+  color: #fff;
+  line-height: 1.5;
+}
+
+p {
+  font-size: 2rem;
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #efb960;
+}
+
+h2 {
+  font-family: 'Montserrat-Bold';
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/**************************************************** About *********************************************/
+.About-Box {
+  background-color: #303960;
+  border-right: solid;
+  text-align: center;
+}
+
+.About-Box:hover {
+  background-color: #efb960;
+  color: #303960;
+}
+
+.personal-info {
+  font-size: 1rem;
+  color: #fff;
+  padding-top: 1.5rem !important;
+}
+
+.personal-info:hover {
+  color: #303960;
+}
+
+.Info-Box {
+  background-color: #313552;
+}
+
+.specific-p {
+  font-size: 1.2rem;
+  padding-top: 7rem;
+}
+
+.specific-h1 {
+  font-size: 3.5rem;
+  color: #fff;
+}
+
+.Advantages {
+  color: #efb960;
+}
+
+#TECHNICAL {
+  padding: 7%;
+}
+
+.Front-End {
+  border: solid 1px #efb960;
+  padding: 3%;
+  margin-top: 7%;
+}
+
+.F:hover {
+  background-color: #a0c1b8;
+}
+
+.F a:hover {
+  text-decoration: none;
+}
+
+#TECHNICAL h1 {
+  font-family: 'Noto Serif', serif;
+  text-align: center;
+  color: #8f8f8f;
+  font-size: 1.5rem;
+  padding-bottom: 6%;
+}
+
+#TECHNICAL p {
+  font-family: 'Noto Serif', serif;
+  font-size: 1.3rem;
+  text-align: center;
+  color: #8f8f8f;
+}
+
+.Technical-icons {
+  color: #efb960;
+}
+
+.Horizantal-line {
+  border-top: dotted 8px #efb960;
+}
+
+.Certificate-image {
+  width: 70%;
+  text-align: center;
+}
+
+.Certificate {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.language-border {
+  margin-top: 8%;
+  ;
+}
+
+.C {
+  width: 50%;
+}
+
+.CSharp-border {
+  text-align: right;
+}
+
+.CSharp {
+  width: 50%;
+}
+
+.asp {
+  width: 20%;
+}
+
+.asp-border {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.Soft-image {
+  width: 50%;
+}
+
+.Back-End {
+  padding: 5%;
+}
+
+.Back-End h4 {
+  color: #8f8f8f;
+}
+
+.Rate {
+  text-align: right;
+}
+
+.progress-bar h5 {
+  text-align: center;
+  color: #fff;
+  font-size: 0.8rem;
+}
+
+/*************************************** Projects *****************************************************/
+#Projects {
+  padding: 7% 15%;
+  background-color: #1b1b2c;
+  color: #fff;
+}
+
+#Projects p {
+  font-size: 1.5rem;
+  font-family: 'Ubuntu';
+}
+
+#Projects h1 {
+  font-size: 1rem;
+  font-family: 'Noto Serif', serif;
+  font-size: 3.5rem;
+  display: inline-block;
+}
+
+.Paging-left {
+  display: inline-block;
+  border: solid #efb960;
+  border-right: none;
+}
+
+.Paging-right {
+  display: inline-block;
+  border: solid #efb960;
+}
+
+.Paging-Box {
+  text-align: right;
+}
+
+.Paging-container .left:hover {
+  background-color: #efb960 !important;
+  color: #1b1b2c !important;
+}
+
+.Paging-container .right:hover {
+  background-color: #efb960 !important;
+  color: #1b1b2c !important;
+}
+
+.Dice-img {
+  width: 100%;
+
+}
+
+.Simon-img {
+  width: 100%;
+}
+
+.Drum-img {
+  width: 91%;
+}
+
+.Dice-header {
+  background-color: #204051;
+}
+
+.Simon-header {
+  background-color: #fff;
+}
+
+.Drum-header {
+  background-color: #283149;
+}
+
+.card-body {
+  background-color: #1b1b2c;
+}
+
+.card {
+  text-align: center;
+  border-color: #efb960;
+  margin: 20px 20px 50px;
+}
+
+.Game-Title {
+  text-align: center;
+  font-family: 'Noto Serif', serif;
+  font-size: 1.5rem !important;
+}
+
+.Game-Name {
+  font-size: 2rem !important;
+}
+
+.Game-Site {
+  font-family: 'Noto Serif', serif;
+  padding: 4%;
+  font-size: 1rem;
+  border: solid 1px #efb960;
+  color: #8f8f8f;
+  text-decoration: none;
+}
+
+.Game-Site:hover {
+  background-color: #efb960;
+  color: #1b1b2c !important;
+  text-decoration: none;
+}
+
+/************************************ Education ***************************************/
+#Education {
+  padding: 7% 15%;
+  background-color: #22273b;
+  color: #fff;
+}
+
+#Education p {
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: 'Ubuntu';
+  padding: 3%;
+}
+
+#Education h1 {
+  font-family: 'Noto Serif', serif;
+  font-size: 3.5rem;
+  display: inline-block;
+}
+
+.icons {
+  color: #efb960;
+  padding-right: 2%;
+}
+
+.graduation-project {
+  border: solid 1px #efb960;
+  padding: 5%;
+}
+
+.Desc-Title {
+  font-size: 1.5rem;
+  font-family: 'Ubuntu';
+  text-align: center;
+  color: #efb960;
+  padding: 3%;
+}
+
+.graduation-title {
+  font-family: 'Noto Serif', serif;
+  font-size: 2.5rem !important;
+}
+
+.Programming-lang {
+  font-size: 1.2rem !important;
+  color: #fff !important;
+}
+
+.qualification {
+  border: solid 1px #efb960;
+  padding: 5%;
+  height: 708px;
+}
+
+ol li {
+  font-family: 'Noto Serif', serif;
+  color: #efb960;
+  line-height: 2;
+}
+
+h6 {
+  text-align: center;
+  font-family: 'Ubuntu';
+}
+
+/****************************************** Interests And Hoppies *****************************/
+#Interests {
+  padding: 7% 15%;
+  background-color: #1b1b2c;
+  color: #fff;
+}
+
+#Interests h1 {
+  font-family: 'Noto Serif', serif;
+  font-size: 3.5rem;
+}
+
+.Hoppies-Icons {
+  width: 60%;
+  border: solid 3px #efb960;
+  border-radius: 10%;
+  display: inline-block;
+}
+
+.Icons-Border {
+  text-align: center;
+  margin-top: 3%;
+}
+
+/**************************************** Contact ************************************/
+#Contact {
+  padding: 7% 15%;
+  background-color: #22273b;
+  color: #fff;
+}
+
+#Contact h1 {
+  font-family: 'Noto Serif', serif;
+  font-size: 3.5rem;
+}
+
+.Social-Border {
+  border: solid 1px #efb960;
+  border-radius: 3%;
+  padding: 5%;
+  background-color: #303451;
+}
+
+.Social-Border h1 {
+  font-size: 2rem !important;
+}
+
+.social-media {
+  color: #22273b;
+  text-align: right;
+  padding-right: 2%;
+}
+
+#Contact a {
+  color: #efb960;
+  font-family: 'Ubuntu', serif;
+  font-size: 1rem;
+}
+
+/************************************** Footer *******************************/
+#Footer {
+  padding: 7% 15% 2%;
+  background-color: #303451;
+  color: #fff;
+}
+
+.footer-button {
+  border: solid 1px #efb960;
+  color: #fff !important;
+  font-size: 1.2rem ;
+  font-family: 'Montserrat-light';
+  padding: 5%;
+  text-decoration: none;
+}
+
+.footer-button:hover {
+  color: #efb960 !important;
+  text-decoration: none;
+}
+
+.justify-content-center {
+  margin: 7% auto 2%;
+}
+
+.justify-content-center .nav-link {
+  color: #fff;
+}
+
+#About .navbar-toggler {
+  margin: 5%;
+  background-color: #22273b;
+}
+
+.Toggler {
+  text-align: right;
+}
+
+.CopyRight {
+  text-align: center;
+}
+
+@media (min-width: 990px) and (max-width: 1200px) {
+  .personal-info {
+    font-size: 12px !important;
+  }
+}
+
+@media (max-width: 910px) {
+
+
+  .footer-brand {
+    font-size: 1rem;
+  }
+
+  #Footer h1 {
+    font-size: 1.2rem;
+  }
+
+  .CopyRight p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 1480px) {
+  .qualification {
+    height: 500px;
+    margin-bottom: 15%;
+  }
+
+  .Back-End h4 {
+    font-size: 1rem;
+  }
+
+  .language-border P {
+    font-size: 1.5rem;
+  }
+
+  .CSharp-border P {
+    font-size: 1.5rem;
+  }
+
+  .asp-border P {
+    font-size: 1.5rem;
+  }
+
+  .C {
+    width: 30% !important;
+  }
+
+  .CSharp {
+    width: 30% !important;
+  }
+
+  .asp {
+    width: 20%;
+  }
+
+  .Social-Border h1 {
+    font-size: 1rem !important;
+  }
+
+  #Contact a {
+    font-size: 12px !important;
+  }
+
+  #Contact p {
+    font-size: 1rem;
+  }
+
+  #Contact h1 {
+    font-size: 2rem;
+  }
+
+  #Education h1 {
+    font-size: 2rem;
+  }
+
+  #Interests h1 {
+    font-size: 1.5rem;
+  }
+
+  #Interests p {
+    font-size: 1rem;
+  }
+
+  .Education-container h3 {
+    font-size: 1.1rem;
+  }
+
+  .graduation-title {
+    font-size: 2rem !important;
+  }
+
+  h6 {
+    font-size: 1rem !important;
+  }
+
+  ol li {
+    font-size: 0.8rem !important;
+  }
+
+  .title-image {
+    position: static;
+  }
+
+  .AboutMe-image {
+    width: 100%;
+  }
+
+  #Title {
+    text-align: center;
+  }
+
+  .About-Box {
+    text-align: center !important;
+    border-bottom: solid 1px;
+  }
+
+  .personal-info {
+    font-size: 1rem;
+  }
+
+  .specific-p {
+    font-size: 1.5rem !important;
+  }
+
+  .specific-h1 {
+    font-size: 2.5rem !important;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  .Game-Site {
+    font-size: 1rem !important;
+    padding: 2%;
+  }
+
+  .Game-Name {
+    font-size: 1.5rem !important;
+  }
+
+  .Game-Title {
+    font-size: 1rem !important;
+  }
+
+  .Game-Desc {
+    font-size: 1rem;
+  }
+}
+
+
+@media (min-width: 320px)and (max-width: 731px) {
+.specific-p{
+  font-size: 1rem !important;
+  padding-top: 0 !important;
+  line-height: 0;
+}
+
+.specific-h1{
+  font-size: 1.5rem !important;
+  line-height: 0;
+}
+.Me{
+
+  padding: 0 !important;
+  font-size: 1rem !important;
+}
+.big-heading{
+  font-size: 2.5rem !important;
+}
+.Paging-container p{
+  font-size: 1rem !important;
+}
+.Paging-container h1{
+  font-size: 2rem !important;
+}
+
+#Projects {
+  padding: 3% 5%;
+}
+
+.qualification h1{
+  font-size: 1.3rem !important;
+}
+.Q{
+  font-size: 1rem !important;
+}
+#Education{
+  padding: 3% 5%;
+}
+.Desc-Title{
+  font-size: 1.3rem !important;
+}
+.graduation-title{
+  font-size: 1rem !important;
+}
+.Programming-lang{
+  font-size: 1rem !important;
+}
+.I{
+  font-size: 1.5rem !important;
+}
+.Cool{
+  font-size: 0.9rem !important;
+}
+
+.Chat{
+  font-size: 1.5rem !important;
+}
+
+.Social-Border{
+  margin-top: 5% !important
+}
+.Talk{
+  font-size: 12px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+/************************************* About Me Box ************************/
+.Hide {
+  display: none;
+}
+
+.TECHNICAL-SKILLS {
+  display: none;
+}
+
+.CERTIFICATES-SKILLS {
+  display: none;
+}
+
+.SOFT-SKILLS {
+  display: none;
+}

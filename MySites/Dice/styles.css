@@ -1,0 +1,86 @@
+body{
+  text-align: center;
+  background-color: #3f3f44;
+}
+#Play-button{
+  font-family: 'Indie Flower', cursive;
+  font-size: 7rem;
+  background-color: #3f3f44;
+  border: none;
+  color: #12947f;
+  font-weight: bold ;
+}
+.Player{
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: 2.5rem;
+  color: #12947f;
+ display: inline-block;
+ margin: 7% 7% 0;
+}
+.container{
+  width: 50%;
+  margin: 2% auto;
+}
+.Dice{
+  width: 200px;
+  height: 200px;
+  margin: 4%;
+}
+.Footer{
+  font-size: 4rem;
+  font-family: "Lobster", cursive;
+  color: #DBEDF3;
+  text-shadow: 3px 0 #12947f;
+
+}
+.MyName{
+  font-family: 'Pacifico', cursive;
+  font-size: 3rem;
+  color: #12947f;
+  text-shadow: 3px 0 #12947f;
+}
+@media (max-width:1028px) {
+  #Play-button{
+    font-size: 3rem;
+  }
+
+  .Dice{
+    width: 100px;
+    height: 100px;
+    margin: 2%;
+    position: relative;
+    top: 8rem;
+  }
+
+  .Player{
+     font-size: 1.5rem;
+     margin: 7% 7% 0;
+     position: relative;
+     top: 8rem;
+  }
+  .Footer{
+    margin-top: 40%;
+  }
+}
+#Play-button:hover{
+  color: #DBEDF3;
+}
+
+.cub{
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  right: 6%;
+  top: 50%;
+}
+.mug{
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  left: 6%;
+  top: 50%;
+}
+.CubHead{
+  margin: 5% 5% 2%;
+}

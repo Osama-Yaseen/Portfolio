@@ -1,0 +1,76 @@
+body{
+  text-align: center;
+  background-color: #283149;
+}
+.Big-Heading{
+  font-size: 5rem;
+  font-family: "Arvo", cursive;
+   color: #DBEDF3;
+   margin: 4%;
+    text-shadow: 3px 0 #DA0463;
+}
+.Footer-Heading{
+  font-size: 2rem;
+  font-family: "Arvo", cursive;
+  color: #DBEDF3;
+  margin-top: 10%;
+  text-shadow: 3px 0 #DA0463;
+}
+.MyName{
+  font-family: 'Pacifico', cursive;
+  font-size: 3rem;
+}
+.drum{
+ outline: none;
+ border: 10px solid #404B69;
+ font-size: 5rem;
+ font-family: 'Arvo', cursive;
+ line-height: 2;
+ font-weight: 900;
+ color: #DA0463;
+ text-shadow: 3px 0 #DBEDF3;
+ border-radius: 15px;
+ display: inline-block;
+ width: 150px;
+ height: 150px;
+ text-align: center;
+ margin: 100px 10px 10px;
+ background-color: white;
+}
+.w{
+  background-image:url("images/tom1.png");
+}
+.a{
+background-image:url("images/tom2.png");
+}
+.s{
+background-image:url("images/tom3.png");
+}
+.d{
+background-image:url("images/tom4.png");
+}
+.j{
+background-image:url("images/snare.png");
+}
+.k{
+background-image:url("images/kick.png");
+}
+.l{
+background-image:url("images/crash.png");
+}
+.Animation{
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+@media (max-width:1028px) {
+  .Big-Heading{
+    font-size: 2rem;
+    margin: 2%;
+  }
+  .drum{
+   font-size: 3rem;
+   width: 120px;
+   height: 120px;
+
+  }
+}
